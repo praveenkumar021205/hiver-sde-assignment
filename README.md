@@ -1,6 +1,4 @@
-Perfect. Let's make the final README now. Based on the results we already established, use this as your **`README.md`**.
 
-Replace the contents of your project's `README.md` with the following:
 
 # Hiver SDE Intern — AI Support Agent
 
