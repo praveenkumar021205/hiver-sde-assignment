@@ -1,0 +1,692 @@
+row_id,customer_message,expected_intent,predicted_intent,intent_confidence,retrieval_score,escalation_decision,escalation_reason,historical_response,draft_reply
+0,@AmazonHelp Je viens de voir le rapport détaillé ils disent avoir envoyer mais ma tante n’a pas reçu,missing_delivery,other,0.10648316217731105,0.33621358433701637,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@277007 Je vous propose de contacter notre SAV via : https://t.co/qzuu0dgDXz afin de vérifier le suivi et vous proposer une solution. ^MH,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+1,@AmazonHelp Yes was supposed to be today.,shipping_information,missing_delivery,0.13334671758672856,0.7224591506915026,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@807856 I understand, Jessica. Deliveries are typically made until 8pm. Has this time passed for you yet? ^JP","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: I understand, Jessica. Deliveries are typically made until 8pm. Has this time passed for you yet?"
+2,@AmazonHelp 48hrs completed. No action from your team. Is this the quality of Amazon resolution team?,other,other,0.10724463177552013,0.3345292334770808,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@121902 You may reach out to our support team via phone/chat/email here: https://t.co/2t6DQoUmNZ. ^MM,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+3,"@AmazonHelp Hi, please can you advise if this Xbox bundle contains the original minecraft game?
+
+https://t.co/8qo1hnVpeK",device_product,delivery_tracking,0.14027149294113953,0.327503963399922,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@628841 As mentioned on the form, an answer will be sent to you within 12 hours. ^MH","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+4,Worst return/replacement service https://t.co/Tbdsvdo1rv,return_refund,return_refund,0.21982592261233957,0.5374153304075527,ESCALATE,Human review recommended for sensitive return_refund case.,"@384244 I understand your concern, Amit. Please reply to the email you've received from us and we'll get back to you. ^HD","I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+Similar Amazon support guidance: I understand your concern, Amit. Please reply to the email you've received from us and we'll get back to you.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+5,@AmazonHelp I filed a claim as soon as it happened. I have that page bookmarked now b/c this happens so often. AMZL is a terrible service. It's shameful,missing_delivery,promotion,0.11519023771441934,0.45729320013552704,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@505116 for more information. Appreciate your patience. (2/2) ^MO,"I understand that you are having an issue with a promotion or offer. Please check the promotion terms and eligibility associated with the order.
+
+Similar Amazon support guidance: for more information. Appreciate your patience. (2/2)"
+6,Echo Dot users in India-what is the software version you are running?Can't get my dot to connect to any indian services  @115850 #echodot,device_product,delivery_tracking,0.15371493492188362,0.4917876063291863,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@255139 ブラウザのキャッシュ、cookieの消去をお試しいただけますでしょうか。解決されない場合は、カスタマーサービスへお問い合わせください→https://t.co/J6YEizo6qC SK,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: ブラウザのキャッシュ、cookieの消去をお試しいただけますでしょうか。解決されない場合は、カスタマーサービスへお問い合わせください→ SK"
+7,"@AmazonHelp Hello Amazon, Vous deviez me rembourser ma commande  1/2",return_refund,other,0.21088727228336074,0.4058901851372174,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@420614 Bonjour, le retour du colis et son traitement peut encore durer quelques jours. Avez-vous contacté notre SAV pour cela ?^MH","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+8,"estimado  @115851  tengo 4 mese esperando un pedido de @115821 mexico 
+y no hay nadie que de solucion",missing_delivery,other,0.10648316217731105,0.2653907355258091,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@450119 Sure! If you have any questions we are here to help! 😄 ^KS,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+9,@115850 Is feels like we are getting fooled by purchasing item during offers. Bought one item during offer. Product was defective so opt for replacement but it didn't happened so you refund the amount by subtracting the offer value and that too in Amazon pay. Simply fooling us. https://t.co/9AMF6DAiIg,promotion,return_refund,0.12146416583299077,0.29827733840138565,ESCALATE,Human review recommended for sensitive return_refund case.,@379494 That's quite a remark. I would like to help! May I know what went wrong? ^HR,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+10,"For the love of god, @117086, need some help here.",other,other,0.21175837905308978,0.7161836534988932,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@222540 Please get in touch with us here:https://t.co/JzP7hlA23B ^CN,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Please get in touch with us here:"
+11,"Gute Arbeit @116316. Euer Kundenservice war so gut, dass ich nicht mehr bei euch einkaufen möchte. Mein Prime Abo wird dann nun auch mal nach 5 Jahren gekündigt.",other,prime_video,0.3550462353868553,0.24894840021580783,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@366913 Die Nachfrage läuft - wir melden uns bei dir zurück! Versprochen! Lieben Gruß ^SM,"I understand that you are having trouble with Prime Video. Please check the app, device and account settings. If the issue continues, Amazon Support can help investigate it.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+12,@122232 @115830 Maybe @AmazonHelp can help? Maybe? Anyone?,other,other,0.2737464694509321,0.9679092740347007,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@202189 I'm sorry for the discrepancy in information! Without posting any account details, can you let us know what's going on. ^BV","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: I'm sorry for the discrepancy in information! Without posting any account details, can you let us know what's going on."
+13,@AmazonHelp Gracias Amazon! Son los mejores! Gracias ^AD,other,device_product,0.13557625960877492,0.5786998508957351,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@143191 Gracias Daniel. ¡Que disfrutes el Black Friday amigo! ^JJ,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: Gracias Daniel. ¡Que disfrutes el Black Friday amigo!"
+14,@AmazonHelp Yes seller account in India,account_issue,account_issue,0.2970002143262905,0.6116535824050093,ESCALATE,Human review recommended for sensitive account_issue case.,"@532172 Are you getting an error message when trying to log in to KDP? If so, what does it say? This will help us help you. ^RM","I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: Are you getting an error message when trying to log in to KDP? If so, what does it say? This will help us help you.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+15,"@AmazonHelp 'Undeliverable' but you have regularly delivered to that address before, including recently.",missing_delivery,other,0.12073961103005136,0.3768451728787235,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@216557 Sorry for the inconvenience, we do not have access to your account, please contact our Customer Service for more information. ^AZ","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+16,@AmazonHelp can you send me a seat plan  of amazon deck 109 please,other,other,0.1712803170501921,0.6050448618848949,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@629677 Was the venue able to let you know where Deck 109 is? They will be best position to tell you the exact location. ^DD,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Was the venue able to let you know where Deck 109 is? They will be best position to tell you the exact location."
+17,@AmazonHelp You are absolutely wrong. I didn't receive any email today. Now you are starting false statements in media portal. @72659 @132995 @218502,other,shipping_information,0.13522872577993833,0.46799544007148697,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@410967 You can check the correspondence sent by our team here:https://t.co/8DAc10S7ww ^EM,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: You can check the correspondence sent by our team here:"
+18,Cancelling Amazon Prime is hard. Four times I clicked end and it sent me to a new page asking if I am sure.,other,other,0.11250936897581418,0.3538234271126091,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@239949 I'm sorry for the trouble! Let's go over your available options here: 
+ https://t.co/hApLpM3Ejd  ^LL","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+19,@AmazonHelp The latest Android one. There used to be a drawing pen option here https://t.co/d8s1AEus6N,other,order_issue,0.1184275392142966,0.3919140849159988,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@414119 We'd like to check that for you. Get in touch here: https://t.co/hApLpMlfHN and we'll be happy to help.^RS,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+20,"@115830 any reason why the delivery driver left my package inside my food bin on my driveway? I'll be returning the item as I can't help but feel that it smells like rotting vegetables now!! Seriously, why?!",missing_delivery,missing_delivery,0.15078459895802016,0.28791566474536345,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@208741 So sorry about this, Rebecca! We want to look into this with you. Please reach out to us here: https://t.co/JzP7hlA23B. ^VB","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+21,"@AmazonHelp Yes, I've gone through all of the steps. What else can I do?",other,shipping_information,0.1396670128027131,0.559919931937888,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@187800 I'm sorry you received an unwanted replacement. I'm not seeing your message yet. Have you used the form ^ST provided? ^BH,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: I'm sorry you received an unwanted replacement. I'm not seeing your message yet. Have you used the form provided?"
+22,@AmazonHelp Please update on priority.,other,other,0.15117070817852743,0.5721168723803021,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@165091 Please reply to our correspondence sent to your registered email account &amp; we'll get back to you with an update. You may find all the correspondences from us here: https://t.co/NTkrxpsbHJ. ^MJ,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Please reply to our correspondence sent to your registered email account &amp; we'll get back to you with an update. You may find all the correspondences from us here:"
+23,"@AmazonHelp Das habe ich ja schon alles probiert. Ich habe gerade noch was anderes bestellt also an mir liegt das nicht.
+
+Der Artikel wurde von 3 Verschiedenen Personen bereits versucht zu bestellen.",order_issue,payment_billing,0.160501359059588,0.33760969308323696,ESCALATE,Human review recommended for sensitive payment_billing case.,@791883 Alles klar. :) Dein Feedback habe ich weitergegeben. ^BB,"I understand your concern about the payment or charge. Please check the transaction details in your Amazon account. If the charge is still unclear, Amazon Support can review the transaction.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+24,"@AmazonHelp Thanks for the quick response. I spoke w/ someone yesterday, &amp; although they were very nice, they told me they couldn’t do anything to help",other,other,0.26675160633865813,0.6213664489218838,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@763627 No problem, glad to help! 🙏 ^PJ","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: No problem, glad to help! 🙏"
+25,"Cher @AmazonHelp pouvez-vous m'expliquer pourquoi depuis quelques temps, vos suivis de colis sont devenus complètement absurdes et on ne peut plus rien tracer ? Même en allant sur le site du transporteur que vous nommez il me sort ""numéro de colis introuvable"" !",shipping_information,delivery_tracking,0.1270341262464514,0.3512507446902701,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@528903 Bonjour, pouvez-vous nous donner plus de détails par rapport au colis que vous recevez ? ^ME","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+26,@AmazonHelp I was told today.  But I show nothing on tracking except for the diff order.   I have never had issues like this,delivery_tracking,delivery_tracking,0.11868769449330033,0.2906585812258448,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@187804 This isn't the experience we want you to have. Are you waiting on a late package, or did you receive a damaged item? ^BH","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+27,Me encanta cuando @115821 te dice: entrega prevista el 26 de octubre y a día 31 aun estás esperando... 😑 #noesbien,missing_delivery,other,0.14625697325829357,0.3313878514784214,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@217955 Entiendo. ¿El producto es vendido y enviado por Amazon o por un vendedor externo? ^LG,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+28,@AmazonHelp why is one of your delivery drivers playing their music so loud I can hear it from across the street with doors &amp; windows closed,other,missing_delivery,0.10656733681158745,0.38182843384708665,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@145895 Apologies again Craig. Have you a delivery preference set up? Please get in touch -  https://t.co/JzP7hlA23B we'd like to escalate this further with the carrier. ^TP,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+29,@AmazonHelp But the products still shows under exchange,return_refund,missing_delivery,0.11694919753513659,0.6230333034407922,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@172546 We have responded to your query here: https://t.co/OEghc7eYxh, please check and do the needful. ^AH","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: We have responded to your query here: please check and do the needful."
+30,@AmazonHelp No technicians came to check the phone. Now what should I do with this defective piece that you have supplied.,device_product,shipping_information,0.11019921234272126,0.5570176867102619,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@715026 Apologies for the experience. Please reach us from here: https://t.co/rS49hgaADF we'll look into this and assist you. ^SV,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: Apologies for the experience. Please reach us from here: we'll look into this and assist you."
+31,"Again same thing happened @115850 
+Product not received still saying delivered https://t.co/I18nQCHK51",missing_delivery,order_issue,0.16882558170062972,0.5551264710247136,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@732633 I'm very sorry to hear this, Melissa! This is not the service we want for our customers! I'd like for a member of my team to look into this further. When you have a free moment, please tell us more here: https://t.co/e3bKPftVNu ^HM","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+Similar Amazon support guidance: I'm very sorry to hear this, Melissa! This is not the service we want for our customers! I'd like for a member of my team to look into this further. When you have a free moment, please tell us more here:"
+32,@AmazonHelp I didn't get my Voucher details and customer care is playing with me by giving different statements. Worst service. @7189 https://t.co/cQtVjdpogW,promotion,order_issue,0.10799415847350456,0.3947092761699834,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@292687 Seems like you had an unpleasant experience. Please let us know what went wrong. ^KA,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+33,Now ANOTHER Prime order from @115821 is not being delivered within the Prime window. It's taking an extra week. WHY DID I BUY PRIME?!,missing_delivery,prime_video,0.17286136148860456,0.3743667495515655,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@766649 Two-Day Shipping is transit time, once shipped. Product availability/additional preparation time can affect your delivery date. We show the delivery date at checkout. We are happy to assist here https://t.co/YTbYftENcr if they are arriving after the promised date. ^BE","I understand that you are having trouble with Prime Video. Please check the app, device and account settings. If the issue continues, Amazon Support can help investigate it.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+34,I just have to say – fuck Amazon Prime Now couriers. I just had the worst experience with one over the phone and he canceled my order,order_issue,order_issue,0.15401544927199048,0.4630999181511886,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@663017 Oh no! I'm sorry for the not so great experience, Heather. Without account details, please tell us what's going on. We'd like to help, if possible! ^AB","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+Similar Amazon support guidance: Oh no! I'm sorry for the not so great experience, Heather. Without account details, please tell us what's going on. We'd like to help, if possible!"
+35,"@AmazonHelp Thursday, November 9, last week. 😕",other,other,0.10648316217731105,0.7222528672741211,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@526002 It's not usual for an item to be shipped close to, or even on the delivery date. Keep us posted on the arrival! ^DG","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: It's not usual for an item to be shipped close to, or even on the delivery date. Keep us posted on the arrival!"
+36,@115850 bought oneplus 5 but I didn't get Kindle and amazing prime offer....my login I'd __email__,promotion,promotion,0.10874269855258535,0.42428210859663434,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@305443 Thanks! Can we help? ^WT,"I understand that you are having an issue with a promotion or offer. Please check the promotion terms and eligibility associated with the order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+37,"@AmazonHelp Thanks, just refund the amount.. Last hopes on Amazon..
+Harish 
+M-9986887441",return_refund,other,0.1371744368791195,0.500950367983572,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@281834 I’m so sorry to hear your order did not arrive! We're aware that our delivery services reflects on our business as a whole, and we appreciate your feedback. Please let us know if you have further questions or concerns! We're here to help. ^TG","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: I’m so sorry to hear your order did not arrive! We're aware that our delivery services reflects on our business as a whole, and we appreciate your feedback. Please let us know if you have further questions or concerns! We're here to help."
+38,"@AmazonHelp Have spotted one there am interested in, Can I arrange delivery to an address that is different from my usual home and billing address",shipping_information,delivery_tracking,0.09758209138045637,0.43198451131964055,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@203715 I'm sorry for the account issues. Without posting account details, can you tell us a bit more of what's going on? ^EB","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+39,@AmazonHelp Is there an email I can contact?,other,delivery_tracking,0.1028797334023374,0.7309412857460613,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@185176 Absolutely, Marv! To reach us by e-mail, please see here: https://t.co/hApLpMlfHN Let us know if you need more help! ^FD","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: Absolutely, Marv! To reach us by e-mail, please see here: Let us know if you need more help!"
+40,"@AmazonHelp Un libro (previsto per lunedì) è arrivato oggi, l'altro (forse) martedì. 
+Grazie comunque per l'aiuto!!",delivery_tracking,other,0.10648316217731105,0.3644179448938857,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@482500 Tienici aggiornati. Buona giornata! ^BC,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+41,"@120540 ma è mai possibile che i prodotti sul dash button sono sempre non disponibili Dash, Pampers, Ace etc etc e che c.....",other,other,0.10648316217731105,0.47171882795440473,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@202271 Puoi vedere i prodotti al momento disponibili per ciascuna marca sulle singole pagine dei Dash Button sul nostro sito. ^EA,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Puoi vedere i prodotti al momento disponibili per ciascuna marca sulle singole pagine dei Dash Button sul nostro sito."
+42,@AmazonHelp はい！わざわざありがとうございました！,other,other,0.10648316217731105,0.7748707896402669,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@400225 暖かいお声がけをいただき恐縮です😭　リプライいただきありがとうございました！HM,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: 暖かいお声がけをいただき恐縮です😭 リプライいただきありがとうございました！HM"
+43,"Dear @115821 ,
+
+Your search algorithms for women’s shoes aren’t working. Filters aren’t refining data properly. It’s a hot mess, and I can’t find what I need. 
+
+Please fix this so I can buy shoes!
+
+Sincerely,
+
+A frustrated customer
+
+@115851 @52240",order_issue,other,0.15690004278069075,0.3622840609879965,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@172659 Apologies for the inconvenience. Could you kindly help us with the title you're streaming? ^AP,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+44,"@AmazonHelp @120533 @AmazonHelp en 1-2 le mail, en 3 votre site lorsque je veux me connecter (je n'ai plus utilisé ce compte depuis quelques années https://t.co/zD48CHw1yG",account_issue,other,0.14625697325829357,0.29263870945591025,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@786967 Moi aussi, acheteuse compulsive 😜 Quelle(s) boutique(s) Amazon préférez-vous? ^SM","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+45,@AmazonHelp Laposte,shipping_information,other,0.10648316217731105,0.39510510913130126,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@222203 Pour être sûr d'avoir la bonne réponse, je vous recommande de demander conseiller à votre banque. Cette dernière est la mieux placée pour vous expliquer les différentes offres et options qu'elle propose ^KD","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+46,@AmazonHelp please help with my carrier/delivery issue!!!!!!,shipping_information,other,0.14374474438534804,0.45456808760120276,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@775639 Hello Sarah. Can I ask, is there an issue with an order you are expecting please? ^GA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Hello Sarah. Can I ask, is there an issue with an order you are expecting please?"
+47,Amazon fucked up and delivers my package to another house😑,missing_delivery,missing_delivery,0.19306875134251372,0.516235539816122,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@180777 Capturing delivery photos is intended to help you see that your package was safely delivered and where. You can find more details here: https://t.co/A5IaVjRn3a  ^SE,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: Capturing delivery photos is intended to help you see that your package was safely delivered and where. You can find more details here:"
+48,@AmazonHelp Nobody has got back to me yet,other,return_refund,0.13670366800529862,1.0,ESCALATE,Human review recommended for sensitive return_refund case.,@158381 Please reach out to the brand and they'll help you with your issue. ^ZH,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+Similar Amazon support guidance: Please reach out to the brand and they'll help you with your issue.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+49,"@AmazonHelp Order still stuck.  Let me start this over, would you care to help me with my stuck order @AmazonHelp ? https://t.co/Ko0q88U7mR",order_issue,other,0.15790682451786955,0.6496364039152738,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@185376 You must've received a correspondence from us. Please check. ^HD,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: You must've received a correspondence from us. Please check."
+50,@AmazonHelp Leider reagiert meine @118117-Playbase nicht mehr korrekt auf Alexa (Echo). Es gab ein Update von Sonos. Problem bekannt?,device_product,device_product,0.15300039069553667,0.29126637449557274,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@414075 Melde dich bitte telefonisch bei uns, damit wir dir hier Hilfestellung geben können: https://t.co/PqNEYpyK19 Liebe Grüße ^TG","I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+51,"@115850 being a Prime customer, extremely disappointed with your service. Fraudulent delivery attempt, raised issue on Customer Support still issue not resolved",missing_delivery,other,0.10527632418192565,0.36168487185188547,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@350703 I'm sorry about this. As mentioned earlier, we'll be sure to forward this internally for review. ^VN","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+52,HEY AMAZON WHERE ARE MY HEADPHONES AND STICKER,missing_delivery,delivery_tracking,0.11972661608772443,0.47543909778728405,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@285440 We don't have access to accounts via Twitter. Since the item is fulfilled by Amazon we can't exchange or replace the item. Feel free to repurchase the item. Thanks for contacting us. ^CO,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: We don't have access to accounts via Twitter. Since the item is fulfilled by Amazon we can't exchange or replace the item. Feel free to repurchase the item. Thanks for contacting us."
+53,"@AmazonHelp 11-21 dic, el problema no es la fecha de entrega, es la fecha de envío",shipping_information,other,0.10648316217731105,0.4859677571017911,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@164753 Comprendo. En caso de no recibir el paquete al final del día, no dudes en contactarnos de nuevo. ^CR","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Comprendo. En caso de no recibir el paquete al final del día, no dudes en contactarnos de nuevo."
+54,"@AmazonHelp u cn check the detail frm d detail i hve provided last time.
+
+do u use bigdata or BI ? search d detail. I dont want 2 fill frm again &amp; again",other,promotion,0.13326183243677664,0.33067256208404744,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@328635 and reply to the same for further assistance. (2/2) ^MO,"I understand that you are having an issue with a promotion or offer. Please check the promotion terms and eligibility associated with the order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+55,@AmazonHelp It did.  But it’s daylight #savingnotsavings,other,missing_delivery,0.13834779750671336,0.41709202078467317,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@360560 I'm sorry it didn't provide the date. Please help us improve by documenting its response here: https://t.co/g4VSUTrD5F ^BH,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+56,@AmazonHelp @115851 @120781 @7957 @2246 @AmazonHelp @115821 @115830 @115851  I know you have done nothing to resolve the technical issue with my account but still have sent an email to your team. If only you can do something at least to get this issue resolved as I have been harassed enough by you.,account_issue,account_issue,0.12585724613762503,0.38758383991968437,ESCALATE,Human review recommended for sensitive account_issue case.,@190846 We're glad to hear the issue with your account has been resolved. Thanks for keeping us posted. ^MA,"I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+57,@115821 my wife’s account is locked and she can’t contact anyone for help. Is there a phone number she can call?,account_issue,account_issue,0.17742888475977756,0.4623818217872558,ESCALATE,Human review recommended for sensitive account_issue case.,"@780044 You can call us directly here:
+866-216-1072   ^BA","I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: You can call us directly here: 866-216-1072
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+58,@AmazonHelp Intact même après avoir marché dessus 😅 Pas de soucis de ce côté.,other,other,0.10648316217731105,0.4255966901244478,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@383095 Merci et bonne journée :) 
+^SA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+59,@AmazonHelp boa tarde. voces auxiliam em entrega que será feita pelos Correios?,shipping_information,other,0.10648316217731105,0.29548592383169514,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@436278 Gracias por la información, Carlos. ¿El producto era vendido y enviado por Amazon o por un vendedor externo? ^LG","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+60,"@AmazonHelp はい！
+ご丁寧にありがとうございます！",other,other,0.10648316217731105,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@379745 とんでもないことでございます。どうぞよろしくお願いいたします。TN,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: とんでもないことでございます。どうぞよろしくお願いいたします。TN"
+61,"@AmazonHelp Je vais les contacter tout de suite, merci de votre aide 😀😀",other,other,0.10648316217731105,0.5768490311536943,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@337709 Je vous en prie, tenez-nous informé. ^BR","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Je vous en prie, tenez-nous informé."
+62,@115850 tum logo se kucha nahi ho skta 28 sep ko order place kiya aur aaj 7 oct hai tumhaare bas ki nahi,missing_delivery,cancellation,0.21335607638834392,0.4076195615433933,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@190898 it to be personal information. Our Twitter page is visible to the public. 3/3 ^AP,"I can help with your order cancellation request. Please provide the relevant order details so the request can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+63,@AmazonHelp It's like this since 3rd Oct. No updates. https://t.co/bVasEBAobs,delivery_tracking,missing_delivery,0.10839873333892701,0.46592087801837684,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@294369 Sorry about the delay. Kindly drop in your details here: https://t.co/7EUg8sdHyg and we'll work on it. ^NS,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: Sorry about the delay. Kindly drop in your details here: and we'll work on it."
+64,@AmazonHelp There was no reason for the order to not be delivered.  Do not contact me further in this matter.,missing_delivery,missing_delivery,0.10054315986707588,0.4795530764305399,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@314209 We strive to improve and your feedback helps us do so! When you get a chance, please leave your feedback here: https://t.co/wHykmB7lUW ^BA","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: We strive to improve and your feedback helps us do so! When you get a chance, please leave your feedback here:"
+65,@116875 Mejor preocupen por entregar lo del buen fin.... seguro que con el pretexto del Black Friday se tardarán aún más con mi pedido. Ya una semana y nada de nada.,missing_delivery,other,0.10648316217731105,0.4050675801494562,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@143202 ¡Hola, Jesus! ¿Cuál es la fecha de entrega estimada indicada en el correo de confirmación del pedido?^DS","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+66,@AmazonHelp リプライありがとうございます。コミネのネオプレーンハンドルウォーマーを購入したところ左右一組ではなく左が二つのものが届いてしまいました。開封してから気付いてしまったのですが返品、交換したいのですがこの場合どうすればよいでしょうか？,return_refund,other,0.10648316217731105,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@672077 Amazonプライム特典をご活用いただけるとのこと、誠にありがとうございます。　はい、より一層皆様にご満足いただけるサービスを提供できるよう、頑張ってまります。　今後とも、当サイトをどうぞよろしくお願いいたします。　ＳＭ,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Amazonプライム特典をご活用いただけるとのこと、誠にありがとうございます。 はい、より一層皆様にご満足いただけるサービスを提供できるよう、頑張ってまります。 今後とも、当サイトをどうぞよろしくお願いいたします。 ＳＭ"
+67,"@115821 I really want to buy the Echo. But sending me a mail every week, to say faintly that it is not being shipped to Belgium, does not make me happy. https://t.co/yLtKNkN58a",shipping_information,other,0.10352275960222516,0.42815089682177127,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@628300 I understand your concern. Please get in touch with our support team here:https://t.co/HQhpS2qeEd. ^MN,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+68,@115850 Why don’t you have all the color options? 🤔 https://t.co/yNEUPpdgRM,shipping_information,shipping_information,0.13644210869602075,0.5804682146606188,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@203264 We're unable to access your account via Twitter. Please reach out to us using the link ^VS provided above.  ^KP,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: We're unable to access your account via Twitter. Please reach out to us using the link provided above."
+69,"@AmazonHelp Thurs, I ordered stuff from 3 different retailers. 1 item has arrived and 1 dispatched yesterday. @115830 still in warehouse!!",delivery_tracking,order_issue,0.14101766870531032,0.43841963273915807,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@467050 Sometimes an unforeseen circumstance will cause a short delay in delivery. Most orders are delivered the next day. ^EM,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+70,Trying to go through my Kindle books online on @115821 and every few minutes a FULL PAGE AD for that echo thing takes over. I HATE THAT,device_product,device_product,0.1285899138685344,0.45571366552663317,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@738379 Hi! We do not have the requested information currently. Stay tuned! ^YP,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: Hi! We do not have the requested information currently. Stay tuned!"
+71,"@AmazonHelp Some of the ""X-Ray Lyrics"" that accompany songs in the app are incorrect. When I spot these, is there a way for me to suggest changes?",other,delivery_tracking,0.1216160979332619,0.3964480879860949,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@124168 We'd be glad to assist with this, Rich! Without posting personal account information, tell us more about this. ^FR","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+72,@AmazonHelp @AmazonHelp u have d habbit of missing everything,other,missing_delivery,0.1308852188570572,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@187798 The item may need more time for processing before shipping. If you link us to it, we're more than happy to look at it. ^DW","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: The item may need more time for processing before shipping. If you link us to it, we're more than happy to look at it."
+73,"@115850, your service is the worst, even after taking prime service , making pre-payment along with extra payment for on-time deliver, you only deliver the product when you want !!! You affected my deliverables...",missing_delivery,delivery_tracking,0.11930057563400151,0.35637550999440076,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@208005 Apologies for the delay in pick up. Please share your details here: https://t.co/GIJyeYqKE0. We'll fix this for you. ^SB,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+74,"@AmazonHelp Today, and it got here today but I ordered it, with Prime, on Monday",delivery_tracking,prime_video,0.10700381763815699,0.5018583391143564,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@363787 We're sorry you haven't received your items yet! Have we missed the delivery date for this order: https://t.co/Y5jpI9gRhE? ^WM,"I understand that you are having trouble with Prime Video. Please check the app, device and account settings. If the issue continues, Amazon Support can help investigate it.
+
+Similar Amazon support guidance: We're sorry you haven't received your items yet! Have we missed the delivery date for this order:"
+75,@AmazonHelp So basically my Samsung battery would've exploded on my face if I hadn't checked and I bought that battery just 4 months ago,device_product,delivery_tracking,0.12193880771491791,0.31186776074779043,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@665261 That's great to hear! Do you use other Prime benefits like Prime Video too? ^JJ,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+76,"@116875 y no son las paqueterias por que he pedido particulares y no he tenido ningún problema, siempre es @116875",other,other,0.10648316217731105,0.32268396788245635,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@261765 Comprendo. Por favor, entra en contacto directamente con nuestro Servicio al Cliente, para que verifiquen lo ocurrido: https://t.co/beR78zMMYB ^CR","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+77,I think I'm done ordering games from @115821 almost ever time I do it comes in damaged or UPS will lose my package like they just did with my #XenobladeChronicles2. I'm so pissed off I was really looking forward to this game after work...,missing_delivery,missing_delivery,0.12838499280796178,0.3780155569326299,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@269375 We will continue to add new content. Keep checking https://t.co/FYM9PIZOR8 where we highlight the latest movies and TV shows we have available. Kindly stay tuned. ^HS,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+78,"Pues aquí no ha llegao ni Peter. Otro gran servicio del binomio @116928 - @4496. Ah, y lleva en reparto desde las 10 de la mañana. 12 horas para recorrer 16km. Flipas.",delivery_tracking,other,0.10648316217731105,0.3790848459223261,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@733103 @132703 ¿podrían ayudarnos con esta entrega? Gracias. Cesar, si no recibes respuestas, avisanos. ^DA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+79,"@AmazonHelp ""Livraison prévue aujourd'hui avant 20h                                          
+  Estimation initiale : jeu. 23 nov. """,delivery_tracking,other,0.10648316217731105,0.7152807335861816,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@139832 Je suis sincèrement désolée pour le désagrément causé par cela. Avez-vous signalé cet incident à notre service client s'il vous plait ? ^SB,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Je suis sincèrement désolée pour le désagrément causé par cela. Avez-vous signalé cet incident à notre service client s'il vous plait ?"
+80,Come on @115830 not a happy customer!! Ordered lime green car mats and received these this morning! I've sent a msg to the seller!! 😡😡grrr https://t.co/TZmrCSvO0P,order_issue,order_issue,0.1369720675719645,0.33045390972440325,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@724464 Thanks for the shout-out, Heather! It's really appreciated!! 😍 ^LB","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+81,"@AmazonHelp ""With the local courier"" they stop delivering in less than 10 minutes :(",shipping_information,order_issue,0.12234731147427404,0.4591114975253415,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@128889 Orders can still be delivered up to 21:00. If not delivered by then, please call or chat here: https://t.co/JzP7hlA23B ^MH","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+Similar Amazon support guidance: Orders can still be delivered up to 21:00. If not delivered by then, please call or chat here:"
+82,@AmazonHelp Nothing is there in the link can please let me know when this product will be deliver,shipping_information,delivery_tracking,0.11975434902103764,0.5858374267049349,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@307770 I've checked and can confirm we haven't received your details. Kindly fill your details again. ^SH,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: I've checked and can confirm we haven't received your details. Kindly fill your details again."
+83,@AmazonHelp 了解いたしました。,other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+84,@115830 @AmazonHelp yeah so why do I have to pay for a return for when I cancelled my pre order that you still sent me :/,return_refund,other,0.1337916255087879,0.5128229233379424,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@215706 Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. 2/2 ^HD,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Please report this to our support team here: and we'll look into this. 2/2"
+85,@AmazonHelp Tara 😂 grande fan dei vostri pacchi,other,other,0.10648316217731105,0.6284317143114433,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@233015 Capisco, non aveva le ali, era più sobrio 😜^BC","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Capisco, non aveva le ali, era più sobrio 😜"
+86,@AmazonHelp Thanks! :),other,other,0.24565370674481254,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@351805 Of course! We're still here if you need us! 😊 ^KJ,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Of course! We're still here if you need us! 😊"
+87,@115850 How many times do I have to suffer although I continue to buy from amazon? 2 items not delivered (later cancelled) due to wrong choice of transportation and 1 item not reverse picked although pickup promised 10 days back.Order# 403-7565104-7889934,return_refund,return_refund,0.1287102493184101,0.26677594751690914,ESCALATE,Human review recommended for sensitive return_refund case.,"@354494 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. (2/2)^SU","I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+88,@115821 and Daily Market are infinitely useless thank you so much,other,shipping_information,0.1553357551364041,0.4602045009075201,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@120467 As informed earlier, we will forward your request. However, I request you to wait for it. (2/2)^HR","I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: As informed earlier, we will forward your request. However, I request you to wait for it. (2/2)"
+89,@115850 ORDER # 402-9253917-5913966 - This order has NOT been delivered to me yet. Please check and fulfil the order delivery.,missing_delivery,missing_delivery,0.12581236590793524,0.5315515841616876,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@517156 Please contact us here https://t.co/00q4Sqj9zL we will certainly help you with this. (2/3) ^MD,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: Please contact us here we will certainly help you with this. (2/3)"
+90,.@115830 Please can you tell me how to stop the charge each month for amazon prime when I don't want it or use it? It's getting tedious now!,other,delivery_tracking,0.11505544052033373,0.4075955052356893,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@653282 We would be happy to verify this via phone or chat. Please feel free to reach out here: https://t.co/hApLpMlfHN ^BG,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+91,@AmazonHelp Il y a moyen vous echangez Watch Dogs 2 par BF1 sur le pack ps4 pro edition black friday ?,order_issue,other,0.10076989926476644,0.36572494939889416,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@146150 Bonjour,
+En principe cela n'est pas possible. Avez-vous un souci avec la livraison de votre colis?
+^MD","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+92,"てかアマゾンプライムまじですごいな
+アニメなんでも観れる",other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+93,"@115830 Pre-ordered item in June, not delivered on date of publication, parcel received today, with no contents (empty envelope), and now told item will not be able to be delivered until 28th Dec.  The the hell is going on.",order_issue,order_issue,0.1449231532110949,0.29909080909472563,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@338251 I am afraid the resolution provided to you by our team is the best we can offer. We'll not be able to assist you further. ^RS,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+94,Amazon Barいきたいな,other,device_product,0.13557625960877492,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@306308 アマゾンです。ご迷惑をおかけしております。商品に問題はございませんでしたか。よろしければ、交換(可能な場合)またはご返品を承ります。お手続き方法はこちらをご参照くださいませ。https://t.co/M5TniGqVCZ ET,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: アマゾンです。ご迷惑をおかけしております。商品に問題はございませんでしたか。よろしければ、交換(可能な場合)またはご返品を承ります。お手続き方法はこちらをご参照くださいませ。 ET"
+95,"@AmazonHelp are you kidding me, i have already done that 3 times now, they have blocked me. they dont want to answer i think",other,other,0.13834765572090102,0.3821588368133308,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@225137 I'm sorry for the frustration! Who is the carrier for this delivery? You can check here: https://t.co/Y5jpI9gRhE  ^NN,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+96,Dear @AmazonHelp are you my ex? No? So why are you telling me you're late? https://t.co/TKGZ0UZpmY,delivery_tracking,shipping_information,0.14673346770005993,0.5304167974977517,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@630058 We'd like to look into this with you. When you have a moment, please contact us here: https://t.co/EKXRLsnxJu ^AC","I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: We'd like to look into this with you. When you have a moment, please contact us here:"
+97,j’ai passé une commande d’un miroir lumineux chez @120533 et surprise quand je recois mon colis tout est cassé et bah merci!!! Meme AliExpress ne m’ont jamais envoyé une catastrophe pareille. Je ne commanderai plus 🤬 @AmazonHelp,order_issue,other,0.10648316217731105,0.31036289523519917,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@753784 Bonjour, désolée pour cela, quelle est la date de livraison qui vous a été indiqué lors de la validation de commande SVP? ^KE","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+98,@AmazonHelp Last night,other,other,0.10648316217731105,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@337944 We'd like to take a look into this with you. When you get a moment, please contact us via phone or chat:  https://t.co/hApLpMlfHN Thanks! ^SW","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: We'd like to take a look into this with you. When you get a moment, please contact us via phone or chat: Thanks!"
+99,@AmazonHelp But that only caused a password change but still the account is locked :(,account_issue,account_issue,0.17592982967383228,0.5132757519549012,ESCALATE,Human review recommended for sensitive account_issue case.,@341636 You can reach out to us without signing in to your account here: https://t.co/6tDjE2YMok ^WJ,"I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: You can reach out to us without signing in to your account here:
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+100,"@AmazonHelp a priori tout est OK et en bon état, après vous n'y etes pour rien, c'est plutot la poste qui merde pour changer",shipping_information,other,0.10648316217731105,0.31591816045220145,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@389945 Bonjour, je suis désolée d'apprendre cela. Pouvez-vous m'expliquer davantage la situation rencontrée s'il vous plait ? ^SB","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+101,@AmazonHelp Danke für Nachfrage.,other,other,0.10648316217731105,0.6009676430635468,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@406478 Sehr gerne :) ^AN,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Sehr gerne :)"
+102,@115828 I'm just waiting for you guys to ship Ultra Moon. Order page said it would be yesterday but it still hasn't shipped.,delivery_tracking,other,0.13639393594670107,0.3803902342561206,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@727549 It isn't uncommon for packages to ship and arrive within the same day. Please keep us posted! ^MW,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+103,@AmazonHelp Just whining into the void. Didn't expect the void to reply. :) Only a minor shipping delay. Will contact support if it doesn't arrive. Thx!,shipping_information,shipping_information,0.14240663724770047,0.2779066033144263,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@117798 We'd love to take a further look into these delivery issues in real-time, via phone or chat, here: https://t.co/hApLpMlfHN ^FD","I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+104,@AmazonHelp I just did but they are still not in my library,device_product,missing_delivery,0.11897419393810331,0.7908801208222422,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@164555 What options were we able to review with you when you contacted us? ^WM,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: What options were we able to review with you when you contacted us?"
+105,"@AmazonHelp for first time amazon failed to satisfy me! My items should be delivery within 5-8 days, now 7 days you didn’t even ship them!!!",missing_delivery,other,0.12660592064104392,0.4070832182660683,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@333362 Hmm. Have you been able to reach us via phone or chat? If not, please do so here: https://t.co/hApLpMlfHN. ^AL","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+106,@115830 Received this today + look how damaged it is. No damage to external packaging so was packaged up and willing sent to us like this😐 https://t.co/dQHjpjtGmH,order_issue,order_issue,0.11318420174490464,0.37670296055900926,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@218229 We'd like to take a closer look into this for you. Please reach out to us by phone at this link: https://t.co/JzP7hlA23B ^VS,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+107,@AmazonHelp The seller is yourselves!!,other,order_issue,0.15103987181405285,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@478415 For items sold by a seller you can file an a-z claim here: https://t.co/H4hM23SiSI ^RS,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+Similar Amazon support guidance: For items sold by a seller you can file an a-z claim here:"
+108,@AmazonHelp Expérience client désastreuse. Compte suspendu sans motif. Expérience inoubliable,account_issue,other,0.10648316217731105,0.37101807031088163,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@263841 Bonsoir, désolée pour cela, avez-vous reçu un émail avec la raison ou la démarche à suivre afin de débloquer votre compte je vous prie ? 
+^KE","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+109,@AmazonHelp I have done this right away this is a message I get every time but no call let's wait for another 24. Hours and then will take my actions https://t.co/UujKMEEcCD,other,return_refund,0.12488952380273907,0.4341128387522529,ESCALATE,Human review recommended for sensitive return_refund case.,@139232 Once we receive the details from our customers we reach out within 6 hours to 12 hours. I've checked and we've received your details please allow us some time and we'll get back to you. ^KA,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+110,@AmazonHelp Ben pas de nouvelles encore,other,other,0.10648316217731105,0.6410654924079084,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@171222 Bonjour, le département concerné a bien été avisé par mon collègue, merci de votre patience. ^SA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Bonjour, le département concerné a bien été avisé par mon collègue, merci de votre patience."
+111,The level of hate I have for @AmazonHelp @115821 grows with each incorrect delivery. Learn to read a map. 😡,order_issue,order_issue,0.10257781234408897,0.3918424706574298,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@375524 I'm sorry, do you need assistance? We're here to help in any way we can. Please don't post e-mail or order #. ^AM","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+112,@115850 what's happened to your after sales service?! I've been struggling to return a product for 4 days straight now. #Frustrated,return_refund,return_refund,0.15348965153388203,0.3904783533361529,ESCALATE,Human review recommended for sensitive return_refund case.,@791910 Sure thing! You can find the Online Returns Centre here: https://t.co/uPEGRnrkgT ^TR,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+113,@116875 Este servicio “cash” aplica en México si quiero comprar un producto de Amazon USA?,payment_billing,device_product,0.13557625960877492,0.3223303193243231,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@222545 Por la imagen que nos envías parece que el artículo estará disponible a partir del 06 de Diciembre, pero te recomiendo verificar si después de esa fecha puedes realizar la compra o bien buscar modelos similares como estos: https://t.co/bNq1yO1dC9. ^MZ","I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+114,@AmazonHelp This was the message from Amazon on my number,account_issue,delivery_tracking,0.11705038690108492,0.47698943778972885,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@206023 provide your account details as we consider them to be personal information. Our Twitter page is visible to public. 2/2^SB,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: provide your account details as we consider them to be personal information. Our Twitter page is visible to public. 2/2"
+115,I've been bamboozled... IVE NEVER FELT SO BETRAYED IN MY LIFE @115821 https://t.co/9j07Zx0OUT,other,account_issue,0.11670065744769477,0.5287440822890699,ESCALATE,Human review recommended for sensitive account_issue case.,@479329 Oh no! I see that your package is late. Who is the carrier for your package today? ^TL,"I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: Oh no! I see that your package is late. Who is the carrier for your package today?
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+116,@115830  come on Amazon sort your Muppet delivery drivers out.. https://t.co/Bt1PTgK0uC,other,other,0.13566506093539038,0.5253316351446268,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@145895 Apologies again Craig. Have you a delivery preference set up? Please get in touch -  https://t.co/JzP7hlA23B we'd like to escalate this further with the carrier. ^TP,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Apologies again Craig. Have you a delivery preference set up? Please get in touch - we'd like to escalate this further with the carrier."
+117,@AmazonHelp はい。また注文したいので読めますが、コストかかりますがビニールに包むと滑りがいいので段ボールにいれるとき破れないんじゃと思います。,order_issue,other,0.10648316217731105,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@668968 ありがとうございます！😊 YM,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: ありがとうございます！😊 YM"
+118,@AmazonHelp @115851 I have received multiple responses from past 4 days but no soln. Bullying- neither the service nor the refund would be provided. https://t.co/PiuAkNBnHv,return_refund,return_refund,0.15471470159809686,0.378200293100979,ESCALATE,Human review recommended for sensitive return_refund case.,@776874 Apologies for the delay. Kindly fill in your details here: https://t.co/beaaDm0muc and we’ll contact you soon. ^MN,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+119,@AmazonHelp Yep. I️ looked for it and it is no where to be found.,missing_delivery,missing_delivery,0.11744084896925693,0.7091661714441259,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@158257 You should hear back from them via email shortly. Please let us know how it goes! 
+
+- Richard L.","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: You should hear back from them via email shortly. Please let us know how it goes! - Richard L."
+120,@115821 That is BS @115821 saying that my @115890 Xbox One X console won’t be delivered until November 13 to the 17 is not right,delivery_tracking,missing_delivery,0.10739338074076588,0.4963351167737011,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@417579 Oh My! We'd love to look into this for you. Please reach out to us here: https://t.co/hApLpMlfHN
+
+^LL","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: Oh My! We'd love to look into this for you. Please reach out to us here:"
+121,@AmazonHelp I can't log in to my account to even do that. That's the issue. I have Zero access cause it's been hacked.,account_issue,account_issue,0.2408867298579931,0.551751071268877,ESCALATE,Human review recommended for sensitive account_issue case.,"@294571 Yes, it is a scam email. Please follow the steps here: https://t.co/Zl5vv1pqZB &amp; reach us here:  https://t.co/zYVX1Qi29G ^CD","I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: Yes, it is a scam email. Please follow the steps here: &amp; reach us here:
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+122,"@AmazonHelp Usually they do, yes, and they’ve given me credits. They’re nice &amp; helpful. I’m just frustrated because lately 1/2 orders have been delayed.",delivery_tracking,other,0.11712061481927295,0.3120000067703411,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@244663 I understand your frustration! Unforeseen circumstances may cause delays, however, we aim to deliver your order by the updated delivery date shown here: https://t.co/PCtircFm5C Please let us know if this is missed. ^SJ","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+123,@AmazonHelp 2nd gen,device_product,other,0.10648316217731105,0.7424282775403956,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@465789 Prime Video will be available to customers on generation 2, 3 and 4 of the Apple TVs. ^LI","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Prime Video will be available to customers on generation 2, 3 and 4 of the Apple TVs."
+124,@AmazonHelp Correspondence very much on. But akin to octopi ink rather than serious effort to resolve. Standard email txts read like they are from bots.,other,shipping_information,0.12788338689596063,0.34345893735194305,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@121404 We've sent a correspondence to your registered email id. Please check the same for more information. ^ZH,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+125,Amazonがぁぁぁぁ https://t.co/vxBnxGVDku,other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+126,@AmazonHelp I will do that today,return_refund,other,0.11527510795762527,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@219460 We've got something more interesting ""Festive riddles"". Check out Amazon app for more. ^AS","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: We've got something more interesting ""Festive riddles"". Check out Amazon app for more."
+127,I can talk to @115821 Alexa in the music app but not the Alexa app.  Hmmm.,device_product,device_product,0.11727094172722277,0.7369126624084109,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@180859 We're always looking for ways to improve. You can submit feedback directly to our Alexa team: https://t.co/IaMpdMyJUM ^KB,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: We're always looking for ways to improve. You can submit feedback directly to our Alexa team:"
+128,"@AmazonHelp status is ""preparing for shipment"" since last tuesday. Thanks!",delivery_tracking,other,0.16578808267789016,0.5529053360895256,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@322941 Thanks for the update, Abbi. Orders can ship on the same day they're expected to be delivered. Please keep us posted.  ^SE","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Thanks for the update, Abbi. Orders can ship on the same day they're expected to be delivered. Please keep us posted."
+129,寒過ぎてAmazonのダンボール箱の中に入ってやがる https://t.co/JCBnsZyS4C,other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+130,"@AmazonHelp Details shared !
+Hope you contact me ASAP",other,other,0.14522349120940206,0.7052997063003821,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@432205 Thanks for confirming. We'll reach out to you soon. ^SG,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Thanks for confirming. We'll reach out to you soon."
+131,Love buying a new tv and it doesn’t work cheers @115830 @115821,device_product,device_product,0.1180629325185658,0.5198309511557007,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@443968 Are you have trouble logging in after clicking the link? ^DA,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: Are you have trouble logging in after clicking the link?"
+132,"Il corriere mi porta il pacco di Amazon che aspettavo con ansia
+#GFvip https://t.co/97KhrOcYzw",delivery_tracking,device_product,0.13557625960877492,0.5560773137454882,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@791510 Cosa hai ordinato di bello? 😊 Siamo curiosi! ^CS,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: Cosa hai ordinato di bello? 😊 Siamo curiosi!"
+133,"@AmazonHelp I have forwarded the details on the above link! Hope this time , issue will be resolved",other,promotion,0.11988512530462411,0.4671526346161844,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@332761 Thank you for confirming. If you've shared your details, our team will get back to you soon via email. Please keep an eye on your mailbox. Appreciate your patience. ^SM","I understand that you are having an issue with a promotion or offer. Please check the promotion terms and eligibility associated with the order.
+
+Similar Amazon support guidance: Thank you for confirming. If you've shared your details, our team will get back to you soon via email. Please keep an eye on your mailbox. Appreciate your patience."
+134,@AmazonHelp Thanks Already done on amazon website . This is a very  criminal act as you can not denied to take Indian currency by your self until RBI generates the guidelines .10 rupess coin has not demonitized yet.,payment_billing,other,0.13351141100610653,0.35292477143206535,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@510151 Hmm. Let's take a closer look into this with you here: https://t.co/w77ic7l4V2 ^JZ,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+135,"@AmazonHelp @115850 @115851 @1840
+I am waiting since nov. 9th .
+Still it's not resolved by your representatives.
+I hope now someone call me today with a better response.
+and last but not the least I want my money back.
+Thanks!!!
+@743843",return_refund,other,0.1614376217733376,0.3403842094838423,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@485834 We're following up with your concern here: https://t.co/QQTOV9k3ck. Kindly check. ^MP,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+136,@115821 @118706  I PAID FOR EXPEDITED SHIPPING - WHY IS THIS NOT DELIVERED YET? https://t.co/AgPzMqf1Ao,delivery_tracking,shipping_information,0.15753044525990434,0.7782379044527754,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@441107 Hmm.. that's odd. We'd like to take a better look into this w/ you. Please reach us via phone here: https://t.co/hApLpMlfHN ^KP,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: Hmm.. that's odd. We'd like to take a better look into this w/ you. Please reach us via phone here:"
+137,"@118919 , why did u sell 10.E MBL,its worst,2much radiation,there is no exchange for tis mbl,plz help me",device_product,other,0.17772238330824294,0.5348706667958436,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@199800 Please contact us here right away: https://t.co/vlvfJr4nN9 and we'll be glad to help you. ^SI,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Please contact us here right away: and we'll be glad to help you."
+138,@AmazonHelp just been told you have lost my delivery but you have taken payment - what do i do? who do i contact?,other,shipping_information,0.13571574512581175,0.4351026392336273,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@504289 Sorry to hear your orders were delayed. Please reach out to us here: https://t.co/JzP7hlA23B so we can look into this for you. ^ES,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+139,@AmazonHelp あっ💦はい！電話はしてないので大丈夫です！！ありがとうございます😊,other,other,0.10648316217731105,0.8225673276117618,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@143572 👍👍👍💕　MH,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: 👍👍👍💕 MH"
+140,@115821 Don't blame this on the delivery it was the @115821 delivery service that delivered it.,missing_delivery,missing_delivery,0.15783286993002527,0.5033253738859318,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@208234 This is never our intent, we'd love to help out! What was the delivery date you were provided with during checkout? ^SA","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: This is never our intent, we'd love to help out! What was the delivery date you were provided with during checkout?"
+141,"@AmazonHelp Have shared the details, waiting for some miraculous update now!",other,other,0.1613601213247488,0.9477197303538389,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@523482 Thank you for confirming, will get back shortly. ^SK","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Thank you for confirming, will get back shortly."
+142,@AmazonHelp @369330 Who I highly doubt sent the product out like this. (but could have maybe put it in less shoddy and more appropriate packaging),order_issue,order_issue,0.11509080508725371,0.35136610826749004,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@290504 Please contact our support team if you do not receive your order by the appointed time: https://t.co/hApLpMlfHN ^WM,"I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+143,"@AmazonHelp Actualmente pago dos veces y con la aparente subida de precios, una función familiar seria conveniente. #recomendación",payment_billing,other,0.10648316217731105,0.31393121189519085,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@416802 Por este medio no contamos con acceso a tu cuenta, por lo que es necesario contactar directamente a Soporte al Cliente. ^DA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+144,"@115850 I hv purchased watch using Amazon pay &amp; cancelled it and got refund in Amazon pay, how can I get my money back to my bank account?",return_refund,return_refund,0.26351498410875146,0.48899162366035864,ESCALATE,Human review recommended for sensitive return_refund case.,@199422 Sorry for the inconvenience. Please refer our terms and conditions here: https://t.co/6mXKFu0uPn for further details. ^GU,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+Similar Amazon support guidance: Sorry for the inconvenience. Please refer our terms and conditions here: for further details.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+145,@AmazonHelp Hi. Which date should I expect? The one on the product or the one on the order page? https://t.co/peWR18KokA,delivery_tracking,order_issue,0.13771062805184847,0.3998939517036496,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@659796 I get your concern. However, could you confirm if you've shared the required details through the link provided earlier?  If not, please share your details from the secured link provided for us to assist you better. ^KH","I understand that there is an issue with your order or the item you received. Please provide the relevant order details so the issue can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+146,"@AmazonHelp j'ai un soucis avec mon paiement, c'est la première fois que ça m'arrive, help!!",payment_billing,other,0.208045370245681,0.4975386416372951,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@324105 Bjr, je suis désolée pour cela, si votre colis n'arrive pas d'ici 20h, merci de contacter notre SAV via:https://t.co/hgIrz98cdI","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Bjr, je suis désolée pour cela, si votre colis n'arrive pas d'ici 20h, merci de contacter notre SAV via:"
+147,"@AmazonHelp i am part of the Canadian amazon, but still sadly no. I had seen it before but had to change passwords and in doing so this 2nd account vanished. here is a pic of the email i had received. just unsure how to access this 2nd account on the same email https://t.co/ggp0xVudoz",account_issue,account_issue,0.14806039336272164,0.34918581888038597,ESCALATE,Human review recommended for sensitive account_issue case.,@522631 Please contact us via this link: https://t.co/zYVX1Qi29G so an agent can look into this for you. ^JJ,"I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+148,"After 2 years, @115833 suddenly can't understand 'GPB Atlanta'. When asked, now she can't find station 'GPB Lanta', or wants to add some gobbledygook Pandora station. Voice recognition deteriorating.",device_product,delivery_tracking,0.13950030500348978,0.3498648493697039,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@354417 We're here to help! Have you tried uninstalling and re-installing the app as an attempt to fix this? Let us know, please! ^JE","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+149,"@AmazonHelp Ah bon, c'est la première fois que je vois ça, surtout pour un jeu vidéo.. Un temps supplémentaire de traitement. Mdr",shipping_information,other,0.10648316217731105,0.4419184518440615,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@681280 Bonsoir, je vous remercie de nous avoir signalé cela. Un de ces colis vous concerne-t-il? ^BR","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+150,@AmazonHelp Now i don't know anything. I want my refund. That's your company service. Your costumer service team making me only fool.,return_refund,return_refund,0.2124551271047524,0.4173616872208516,ESCALATE,Human review recommended for sensitive return_refund case.,"@438497 Hi! I'm sorry for the frustration. Without providing account information, can you tell us what happened? We'd love to help! ^AJ","I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+151,"@AmazonHelp No one actually refunded me after the first guy said he would but can’t, so his supervisor would and the supervisor ‘promised’ the gal he had to transfer me to would. His ‘call feedback’ confirmation email even said she would be more than able to do it for me, then she did not.",return_refund,promotion,0.10724702731852603,0.3393346463409953,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@171134 Hi Will, sorry for the delay. I can see that your details are still in the Social Media queue. ^JJ","I understand that you are having an issue with a promotion or offer. Please check the promotion terms and eligibility associated with the order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+152,@AmazonHelp I contacted the service provider but they said this product is not available.wait for one month . #amazon,device_product,device_product,0.12996417137101432,0.38967391750941044,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@305267 That's quite a comment! Looks like you've had an unpleasant experience. Do let us know what went wrong, we'd like to help. ^EM","I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+153,"@AmazonHelp I've always been able to do that till yesterday. I now see two nonsense options called ""sort by default"" and ""sort by priority"".",other,shipping_information,0.11670562406746746,0.4201352770080918,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@192272 We're unable to view your account details via Twitter. We'll be able to provide a resolution at the link ^CD provided. ^RA,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+154,"@AmazonHelp Amzl US tracking id TBA556568756000. It says delivery attempted 7:32, but no note was left nor did anyone drive down my street in the past hour",missing_delivery,missing_delivery,0.14913164340111318,0.43177640952373475,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@772576 I'd like a member of my team to further investigate this. Please provide us your info here: https://t.co/lBtDwaUgkV ^BG,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+155,@AmazonHelp still haven't had an update as to why you charged me $17.98.,payment_billing,payment_billing,0.13473679803342792,0.3832818843201893,ESCALATE,Human review recommended for sensitive payment_billing case.,"@277015 Hello, sorry to hear that :/ please contact our Costumer service directly via phone or chat 👉 https://t.co/kNTGheRKje ^SN","I understand your concern about the payment or charge. Please check the transaction details in your Amazon account. If the charge is still unclear, Amazon Support can review the transaction.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+156,@115821 my stuff was supposed to be delivered by 8:00 pm today. It's 8:01. https://t.co/6tqRapjOZy,missing_delivery,missing_delivery,0.17383562334099315,0.4419277298816177,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@125005 Does the tracking show 'out for delivery'? https://t.co/Y5jpI9gRhE ^RO,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+157,Quand tu connais que le sav @120533 . Te prendre le sav de @184489  c'est retour a l'age de pierre . 1 DM en 6 jours . 0 action . 🤘,other,other,0.10648316217731105,0.3505784625508567,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@429585 désolée, vous avez la possibilité de demander le retour de l'article contre un remplacement ou remboursement depuis votre compte^KE","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+158,@115850 @115821 Pathetic refund policies at Amazon reflected every now and then. cc @118702 @4167 are better. @43603 @121927 @19915,return_refund,return_refund,0.19268716935724092,0.506292480159283,ESCALATE,Human review recommended for sensitive return_refund case.,@467261 I'm sorry you're upset with the Amazon Pay. Could you tell us what went wrong? ^HA,"I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+Similar Amazon support guidance: I'm sorry you're upset with the Amazon Pay. Could you tell us what went wrong?
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+159,"@171383 d Mail kommt von @116316 nicht von @171383 .Es ist korrekt,dass i nicht erneut d Probemonat nutzen kann. Der Newsletter ist der Fehler.",promotion,other,0.10648316217731105,0.39974254342580134,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@197575 Ich schau mir das gerne nochmal für dich an - danke, für dein Feedback! Gruß ^SM","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+160,"@AmazonHelp Not sure there's much point,I don't think there's anything else to add. There's been 36 deals (and that's just the ones i was watching) cancelled so far today. Pretty infuriating tbh",other,payment_billing,0.12876753854487277,0.3434415399621392,ESCALATE,Human review recommended for sensitive payment_billing case.,@207109 I'm so sorry! Please give us another chance and contact again:  https://t.co/hApLpMlfHN ^AT,"I understand your concern about the payment or charge. Please check the transaction details in your Amazon account. If the charge is still unclear, Amazon Support can review the transaction.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+161,@115821 why do I pay for prime if you can't meet you guaranteed delivery day and time?,missing_delivery,shipping_information,0.12814236551538327,0.4676175180156522,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@719695 I'm sorry you haven't yet received your package, Jackson. We're here to help! What current tracking information is provided here: https://t.co/kCz2vSiz6H?  ^SE","I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+Similar Amazon support guidance: I'm sorry you haven't yet received your package, Jackson. We're here to help! What current tracking information is provided here:"
+162,"Well this is fun, @115821 is crap again, page just isn't loading right anymore no matter what...",other,shipping_information,0.1025542072184907,0.40715365814146753,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@556058 Are you getting any error messages? Are you having any issues with anything else loading? ^KM,"I can help with shipping information. Please check the estimated delivery date and tracking details associated with your order.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+163,"@AmazonHelp Est il possible de changer de lieu de livraison ? Je dois partir à 13h, colis livré ou non. Merci de votre suivi en tout cas.",shipping_information,other,0.10648316217731105,0.3036511709193096,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@264341 Vous pouvez initier la conversation en DM.
+^ARC","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+164,"@AmazonHelp Ok, but need help regarding this.",other,other,0.19761186536018888,0.5579471369843352,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@131787 We'll certainly help you with your concern, Adit. Could you please elaborate on the issue? ^SY","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: We'll certainly help you with your concern, Adit. Could you please elaborate on the issue?"
+165,@AmazonHelp Amazon has failed to meet its delivery deadlines on my orders twice in 4 days. Frustrating and disappointing.,missing_delivery,delivery_tracking,0.1222045263437989,0.42916815144301734,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@176228 I'm sorry you haven't received your order! Were you provided any additional info regarding the delay? ^ME,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+166,"@AmazonHelp No update from your team, worst service",other,other,0.19246979860825525,0.7518666658649775,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@309916 Please don’t provide your order details as it is personal information. Our Twitter page is visible to the public. ^MS,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Please don’t provide your order details as it is personal information. Our Twitter page is visible to the public."
+167,@AmazonHelp I just downloaded it and it works pretty well!,other,missing_delivery,0.13168798546765126,0.47468136332684496,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@198853 The download feature is currently not available, please stay tuned for further updates on the download option for the title. ^RB","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: The download feature is currently not available, please stay tuned for further updates on the download option for the title."
+168,@115821 @115850 am I going to receive this today? This was bluntly claimed since yesterday when I order. https://t.co/Oxkbn3pYc9,delivery_tracking,cancellation,0.11792417445521308,0.42651814166006885,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@414991 Umang, our team will review the details and reach out to you with all the available options soon. Appreciate your patience. ^MS","I can help with your order cancellation request. Please provide the relevant order details so the request can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+169,"O próximo @117634 a ser lançado vai vir à prova de bala, uma edição especial pros cariocas.",other,other,0.10648316217731105,0.37277896930913307,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@332119 Oi Mauricio, caso tivermos descontos na nossa nova Loja, serão anunciados no site. Continue de olho! ^LG","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+170,@AmazonHelp On the way...,other,delivery_tracking,0.14224729421544224,1.0,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@432931 My apologies Stuart. If it's not received within the revised delivery estimate, please let us know. ^DC","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: My apologies Stuart. If it's not received within the revised delivery estimate, please let us know."
+171,@AmazonHelp It’s of no use considering my previous experience. Once I returned a leather jacket which was never replaced.,return_refund,missing_delivery,0.12836232383804524,0.4554361397754152,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@199881 here:https://t.co/vlvfJr4nN9 and we'll help you right away. 2/2 ^EM,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: here: and we'll help you right away. 2/2"
+172,@AmazonHelp do I have to guess where my parcel is? #amazon #AmazonPrime #CustomerService #AmazonUK https://t.co/eGggjs8FEi,delivery_tracking,delivery_tracking,0.13130808456907023,0.3729666420024659,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@799328 Could you contact us so that we can look into this further for you? You can reach us here: https://t.co/oGDklGgbCZ. ^PJ,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+173,"@115850 order Id: 
+171-0365118-2187508. Stop fooling around and deliver the package, and I want compensation for your delivery agent being rude to my wife, and trust me this is not the first time this is happening..I want a resolution",order_issue,missing_delivery,0.12668503557776675,0.39869587889933034,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@296613 Apologies for the ordeal. We're working on this and we'll get back to you soon. ^PS,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+174,@AmazonHelp amazon delivery service is very poor. 3nov was the date given to me for delivey but still i have not received my product .😞,missing_delivery,missing_delivery,0.15928866443433293,1.0000000000000002,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@506918 I'm sorry that you haven't received the package yet. Kindly write back to the email sent by us &amp; we'll get it checked. ^SY,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: I'm sorry that you haven't received the package yet. Kindly write back to the email sent by us &amp; we'll get it checked."
+175,知らぬ間にアマゾンプライムでモヤさまが見れるようになってた https://t.co/ELLwe9G01P,other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+176,@AmazonHelp Can you deliver the product today at 2pm?,shipping_information,delivery_tracking,0.12236716889225045,0.6815342101756328,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@429382 Thanks for sharing your details. We'll check and revert at the earliest. ^HK,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: Thanks for sharing your details. We'll check and revert at the earliest."
+177,"@AmazonHelp Hi, I've ordered Style Boutique 3 on 3DS from you but it's not shipped yet, says arriving today. It's out of stock though.",delivery_tracking,missing_delivery,0.11925974161694224,0.4517034696157606,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@124142 Orders may be delivered until 9 pm. Please keep us posted on the arrival. ^FJ,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: Orders may be delivered until 9 pm. Please keep us posted on the arrival."
+178,"@AmazonHelp Issue still persists ,it resolved whn i clear the cache &amp; logged in without wifi and mobile data however when I am tryn agn it's same issue",other,missing_delivery,0.10770196514508809,0.44521262110208537,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@663073 We're happy to look into the issue and available options here: https://t.co/JzP7hlA23B ^LI,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+179,"@AmazonHelp Ah bien, merci @AmazonHelp 🙏🏼",other,other,0.10648316217731105,0.6558953724513221,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@340955 À votre service. Je vous remercie pour votre compréhension.
+^ARC","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: À votre service. Je vous remercie pour votre compréhension."
+180,@116618 even though ive changed my account to my uk address i still can't play my prime videos on the firestick?,prime_video,account_issue,0.18029109750756933,0.5020335386025755,ESCALATE,Human review recommended for sensitive account_issue case.,@750624 Have you received any communication to advise the order has been canceled? Have we been able to locate the order for you? ^NV,"I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+Similar Amazon support guidance: Have you received any communication to advise the order has been canceled? Have we been able to locate the order for you?
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+181,@115850 dear all kindly help for my order of Amazon redmi note-4.i ordered redmi note-4 on Amazon app but redmi-4 was delivered to me,order_issue,other,0.12143609583118821,0.5959497161692835,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@311739 The product is available from one of the third party seller on our website, please check here: https://t.co/TeWFLGfzsG ^KA","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: The product is available from one of the third party seller on our website, please check here:"
+182,"@AmazonHelp your delivery has started giving me headaches. Have been complaining about it since ages yet no improvement, only assurances",order_issue,missing_delivery,0.1355048894584111,0.31364059459627386,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@594950 Please reach out to us here: https://t.co/JzP7hlA23B so we can look into this for you. ^ES,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+183,@AmazonHelp Done that..waiting for ur revert,other,other,0.18415721016880537,0.6265267020522547,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@491543 You could check for the same here https://t.co/8DAc10S7ww. ^VM,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: You could check for the same here"
+184,@AmazonHelp I have done that it was two items from two separate people but the delivery due on the 2nd was left in my safe place but the others wasn’t,missing_delivery,missing_delivery,0.14109005394591984,0.3879444644684956,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@287932 Thank you for clarifying! Please reach out to us here: https://t.co/JzP7hlA23B so we can research this further. ^SC,"I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+185,"@AmazonHelp Still no parcel, contacted customer service at 5pm, promised a response to whether they could find it in the hour still nothing...",missing_delivery,missing_delivery,0.1166143778622379,0.49664276563978205,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@446599 I get your concern about the cash back, Arindam. Please share your details here: https://t.co/GIJyeYqKE0 I'll reach &amp; assist. ^SV","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+Similar Amazon support guidance: I get your concern about the cash back, Arindam. Please share your details here: I'll reach &amp; assist."
+186,"@AmazonHelp Never mind you can't solve the issue! My remark stays ""@115850 is a piece of shit"" check my chats with your guys",order_issue,delivery_tracking,0.13559422819166347,0.5288661310637882,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@766357 Hey Kaytee, it looks like this order was being sent from a marketplace seller. Have you managed to get in contact with them to re-arrange your delivery? ^PJ","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: Hey Kaytee, it looks like this order was being sent from a marketplace seller. Have you managed to get in contact with them to re-arrange your delivery?"
+187,@AmazonHelp How can an item that I pre-ordered in advance be OUT OF STOCK for me now upon shipment date?,order_issue,return_refund,0.13040142683221653,0.5863545121991632,ESCALATE,Human review recommended for sensitive return_refund case.,"@815661 Hi, did you receive an email regarding your order? Please also check your spam folder. Regards ^MI","I understand that you need help with a return or refund. Please check the return or refund status in your Amazon order details.
+
+Similar Amazon support guidance: Hi, did you receive an email regarding your order? Please also check your spam folder. Regards
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+188,"Dear @115821 please, PLEASE stop using @3375 - they NEVER deliver on time and never update tracking. Horrible shipping provider.",shipping_information,other,0.13099008324164718,0.502965569672789,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@324720 I'm so sorry for the poor experience! Is this regarding a current order shown here: https://t.co/Y5jpI9gRhE? ^AG,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: I'm so sorry for the poor experience! Is this regarding a current order shown here:"
+189,@115850  https://t.co/nEulluXi9W,other,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+190,@AmazonHelp Je ne pense pas.,other,other,0.10648316217731105,0.6179605398669962,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@127389 Bonsoir, je suis désolée pour cela. Avez-vous passé votre commande sur Amazon.fr ? ^SB","I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+Similar Amazon support guidance: Bonsoir, je suis désolée pour cela. Avez-vous passé votre commande sur Amazon.fr ?"
+191,"@AmazonHelp Une partie de ma commande a été renvoyée, l’autre remboursée; je suis assez déçu. Cela aurait pu être évité avec un peu de communication…",order_issue,other,0.10648316217731105,0.3705804337819668,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@209609 Merci de patienter la date indiquée sur le mail de confirmation reçu après la validation de votre commande. Très bonne soirée. ^ASZ,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+192,アマゾンでKindle版の書籍購入ってどうやるんだ？？配信先が選べない。本人のあいぽん意外には入れられないのか？？,device_product,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+193,What's a fun way to start your morning? Is it arguing with @Amazonhelp to get back the $40 dollars that was supposed to be refunded to you?,return_refund,missing_delivery,0.10841915716504111,0.4247956318798791,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@433135 I'm sorry we've let you down, Chris. Without providing sensitive info, can you tell us more detail on what's going on? ^HS","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+194,"Not once, or twice, but three separate times I've paid for Amazon one day shipping only to get my package after 2-3 days regardless...starting to feel like its a real scam @AmazonHelp",missing_delivery,missing_delivery,0.13252387938840074,0.33306764167996333,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@775990 For tips on how to identify if an e-mail was sent from Amazon, please see here: https://t.co/t1Jct659HX ^CO","I understand that your order has not arrived as expected. Please check the latest delivery status and estimated delivery date in your Amazon order details.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+195,"trying to reclaim a gc which says it's been redeemed, but not according to my account history @AmazonHelp",account_issue,account_issue,0.25539660033853295,0.3639854016929658,ESCALATE,Human review recommended for sensitive account_issue case.,"@466881 Hey, who's the carrier in question? Have you been updated via email about a delay? ^TP","I understand that you are having trouble with your Amazon account. Please follow the appropriate sign-in or account recovery steps.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent.
+
+Human review is recommended before sending a final response because this case may involve account, payment, or refund information."
+196,支払い終わったのにAmazonの支払い番号がまた来たんですが、これってまさか嫌な予感するわやけど…,payment_billing,other,0.10648316217731105,0.0,ESCALATE,No sufficiently similar historical resolution was found.,@115770 カスタマーサービスにてお問い合わせ済みとのことで、お手数をおかけいたしました。リプライいただきありがとうございました。ET,"I understand your concern. Please provide a few more details about the issue so it can be reviewed.
+
+No sufficiently similar historical resolution was found, so this draft uses a general response for the predicted intent."
+197,Gritar de alegría porque piensas que te ha llegado el Fifa y resulta que son 3 putos cables y detergente. @116928 esto no se hace :( WHERE IS MY FIFA!!,missing_delivery,delivery_tracking,0.21843459261585715,0.4567161759182683,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@531116 ¡Hola! Espero que disfrutes mucho de la lectura de tu libro nuevo. :D ¡Saludos! ^CR,"I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: ¡Hola! Espero que disfrutes mucho de la lectura de tu libro nuevo. :D ¡Saludos!"
+198,"@AmazonHelp Noted right above the ""edition"" selection on the picture; my standard Switch preorder is via Amazon directly, not via a 3rd party seller. https://t.co/GuKRA8CDyu",device_product,delivery_tracking,0.13385132828611926,0.5050021105854317,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,"@820894 Hey there! Have you reached out to the third-party seller in regard to this occurrence: https://t.co/Sc21w3w6cC? If so, what options or insight did they provide? We'd like to know. ^GM","I can help you check the latest tracking information for your Amazon order. Please check the tracking details in your order or provide the relevant order information.
+
+Similar Amazon support guidance: Hey there! Have you reached out to the third-party seller in regard to this occurrence: If so, what options or insight did they provide? We'd like to know."
+199,@AmazonHelp Tht link is not working,other,device_product,0.24139112705236024,0.8360603592510653,AUTO_HANDLE,Non-sensitive intent has sufficient historical grounding for an automated draft.,@183935 Could you please let us know which link isn't working? Is it the link provided above or the link of our support team? ^MO,"I understand that you are having an issue with an Amazon device or product. Please provide the product details and describe the issue so it can be reviewed.
+
+Similar Amazon support guidance: Could you please let us know which link isn't working? Is it the link provided above or the link of our support team?"

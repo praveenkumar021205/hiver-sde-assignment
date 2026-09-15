@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Large datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated models
+data/processed/*.joblib
+
+# Evaluation generated output
+evaluation/llm_judge_results.csv
+
+# Environment variables and secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

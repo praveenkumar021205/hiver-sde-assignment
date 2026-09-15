@@ -1,0 +1,9 @@
+text,intent
+Where is my package?,delivery_tracking
+I never received my order,missing_delivery
+Prime Video is not working,prime_video
+I want a refund,return_refund
+Please cancel my order,cancellation
+My payment failed,payment_billing
+I cannot log into my account,account_issue
+My Echo is not working,device_product
